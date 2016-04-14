@@ -113,3 +113,18 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+
+
+#th{ text-align:center;
+
+}
+
+#th2{ text-align:left;
+
+}
+
+#cantidad{width:28px;
+}
+#complemento{width:100px;}
+
