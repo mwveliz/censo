@@ -1,4 +1,4 @@
-<iframe src="cabecera.html" height="100px" ></iframe>
+
     <form action="index.html" method="post">
         <div>
         <br>
@@ -10,32 +10,76 @@
               <input type="radio" name="pale" value="no"/>No</br>
               <br>De Quien: <input type="text" name="men"></br>                
              </br>  
-             
-             
-            
-                Vacunas Apĺicadas Anualmente
-                <br><br>
-                <table>
-                <tr><td></td><td>Fecha</td>
-                
-                <tr><td><input type="checkbox" name="tipo_vacuna">Aftosa</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type= "checkbox" name="tipo_vacuna">Rabia</td><td><input type="date" name="fecha"></td></tr>
-                <tr><tr><td><input type="checkbox" name="tipo_vacuna">Leptospira</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Virales</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Clostridiales</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Brucella</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Triple</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Otras</td><td><input type="date" name="fecha"></td></tr>
-            	</table>
+                                       
+            Vacunas Aplícadas Anualmente
+              <br><br>
+              <ul class="list">
+              <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id="aftosa">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Aftosa <input type="date" name="fecha" id="fecha_aftosa">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id="rabia">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Rabia <input type="date" name="fecha" id="fecha_rabia">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id="leptospira">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Leptospira <input type="date" name="fecha" id="fecha_leptospira">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=virales">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Virales <input type="date" name="fecha" id="fecha_virales">
+	          </li>
+	          
+	           <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=clostridiales">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Clostridiales <input type="date" name="fecha" id="fecha_lostridiales">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=brucella">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Brucella <input type="date" name="fecha" id="fecha_brucella">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=triple">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Triple <input type="date" name="fecha" id="fecha_triple">
+	          </li>
+	          
+	           <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=otras">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Otras <input type="text" name="text" id="text_otras"> <input type="date" name="fecha" id="fecha_otras">
+	          </li>
+              </ul>
         
               <br>
               Desparasitaciones
                 
-              <table>
-               <tr><td></td><td>Tipo de desparasitante</td><td>Frecuencia (días)</td></tr>          
-                <tr><td><input type="checkbox" name="tipo_vacuna">Endoparásitos </td><td><input type="text" name="men"></td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type= "checkbox" name="tipo_vacuna">Ectoparásitos </td><td><input type="text" name="men"> </td><td><input type="date" name="fecha"></td></tr>
-                </table>
+              <ul>
+               <li>Tipo de desparasitante&nbsp;&nbsp;&nbsp;&nbsp;Frecuencia (días)</li>          
+                <tr><td><input type="checkbox" name="tipo_vacuna">Endoparásitos </td><td><input type="number" name="men"></td><td><input type="date" name="fecha"></td></tr>
+                <tr><td><input type= "checkbox" name="tipo_vacuna">Ectoparásitos </td><td><input type="number" name="men"> </td><td><input type="date" name="fecha"></td></tr>
+              </ul>
+                
                 
                 <br>
               Pruebas
@@ -50,6 +94,6 @@
               
               <br> 
               Secado de la Vaca
-              <br><br>Natural <input type="checkbox" name="men"> Inducido <input type="checkbox" name="men"> Producto Utilizado <input type="text" name="men"></br>                
+              <br><br>Natural <input type="radio" name="men"> Inducido <input type="radio" name="men"> Producto Utilizado <input type="text" name="men"></br>                
              </br> 
             
