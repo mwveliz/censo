@@ -1,76 +1,91 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <title>Censo</title>
-    </head>
-    <body>
-    <form action="index.html" method="post">
+
+    <form action="6.html" method="post">
         <div>
-        <br>
-        <br><fieldset><legend>Sanidad Animal</legend></br>
+           <br><fieldset><legend>OTRAS ESPECIES DE GANADO</legend></br>
            
-              <br> 
-              Recibe Asistencia Técnica
-              <input name="pasade" value="si" type="radio"/>S&iacute
-              <input type="radio" name="pale" value="no"/>No</br>
-              <br>De Quien: <input type="text" name="men"></br>                
-             </br>  
-             
-             
+           <fieldset><legend>BUFALINOS:</legend>	   
+            <label>Butoros:</label> 
+            <input type="number" name="butoros">
+            </br>
+             <label>Bufalas:</label> 
+            <input type="number" name="bufalas">
+            </br>
+             <label>Bubillas/os:</label> 
+            <input type="number" name="bubillas/os">
+            </br>
+             <label>Bumautas/tes:</label> 
+            <input type="number" name="bumautas">
+            </br>
+             <label>Bucerros/as:</label> 
+            <input type="number" name="bucerros">
+            </br>
+             <label>Total:</label> 
+            <input type="number" name="total">
+            </fieldset>
             
-                Vacunas Apĺicadas Anualmente
-                <br><br>
-                <table>
-                <tr><td></td><td>Fecha</td>
-                
-                <tr><td><input type="checkbox" name="tipo_vacuna">Aftosa</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type= "checkbox" name="tipo_vacuna">Rabia</td><td><input type="date" name="fecha"></td></tr>
-                <tr><tr><td><input type="checkbox" name="tipo_vacuna">Leptospira</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Virales</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Clostridiales</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Brucella</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Triple</td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type="checkbox" name="tipo_vacuna">Otras</td><td><input type="date" name="fecha"></td></tr>
-            	</table>
+            
+        <th> <fieldset><legend>CAPRINOS:</legend>   
+    <td><label>Cabrio:</label> 
+        <input type="number" name="cabrio">
+          </br></td>         
+    <td><label>Cabra:</label>
+        <input type="number" name="cabra">
+            </br></td>         
+    <td><label>Cabritones:</label> 
+        <input type="number" name="cabritones">
+            </br></td>           
+    <td><label>Cabritonas:</label> 
+        <input type="number" name="cabritonas">
+            </br></td>           
+    <td><label>Cabritos/as:</label> 
+        <input type="number" name="cabritos">
+            </br></td>   
+    <td><label>Total:</label> 
+        <input type="number" name="total">
+                 </fieldset></td></th>
+                 
+         <th> <fieldset><legend>OVINOS:</legend>
+    <td><label>Carnero:</label> 
+        <input type="number" name="carnero">
+            </br></td>     	   
+    <td><label>Oveja:</label> 
+        <input type="number" name="oveja">
+            </br></td>           
+    <td><label>Borregos:</label> 
+        <input type="number" name="borregos">
+            </br></td></td>      
+    <td><label>Borregas:</label> 
+        <input type="number" name="borregas">
+            </br></td></td>
+    <td><label>Corderos/as:</label> 
+        <input type="number" name="corderos">
+            </br></td>
+    <td><label>Total:</label> 
+        <input type="number" name="total">
+                 </fieldset></th></td>
+                 
+    <fieldset><legend>EQUIDOS:</legend>
+            <label>Padrote:</label> 
+            <input type="number" name="padrote">
+            </br>	   
+            <label>Yegua:</label> 
+            <input type="number" name="yegua">
+            </br>
+             <label>Potrillo:</label> 
+            <input type="number" name="potrillo">
+            </br>
+             <label>Potrillas:</label> 
+            <input type="number" name="potrillas">
+            </br>
+             <label>Potros/as:</label> 
+            <input type="number" name="potros">
+            </br>
+             <label>Total:</label> 
+            <input type="number" name="total">
+                 </fieldset>
+                 
+</fieldset>
+              
         
-              <br>
-              Desparasitaciones
-                
-              <table>
-               <tr><td></td><td>Tipo de desparasitante</td><td>Frecuencia (días)</td></tr>          
-                <tr><td><input type="checkbox" name="tipo_vacuna">Endoparásitos </td><td><input type="text" name="men"></td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type= "checkbox" name="tipo_vacuna">Ectoparásitos </td><td><input type="text" name="men"> </td><td><input type="date" name="fecha"></td></tr>
-                </table>
-                
-                <br>
-              Pruebas
-                
-              <table>
-               <tr><td></td><td><td>Ultima Fecha</td>
-                
-                <tr><td><input type="checkbox" name="tipo_vacuna">Brucella</td><td> </td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type= "checkbox" name="tipo_vacuna">Leptospira</td><td> </td><td><input type="date" name="fecha"></td></tr>
-                <tr><td><input type= "checkbox" name="tipo_vacuna">Otras</td><td> <input type="text" name="men"> </td><td><input type="date" name="fecha"></td></tr>
-                </table>
-              
-              <br> 
-              Secado de la Vaca
-              <br><br>Natural <input type="checkbox" name="men"> Inducido <input type="checkbox" name="men"> Producto Utilizado <input type="text" name="men"></br>                
-             </br> 
-              
-             
-	          <br>
-               <div align="center">
-                 <button name="button">Atrás</button>
-              <button name="submit">Siguiente</button>
-            </div>   </br>    
-           
-            
-            </body>    
-              
-        </div>
-        </form>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
-</html>
+   </form>
+     

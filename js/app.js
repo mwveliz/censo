@@ -14,26 +14,36 @@
 				$('div#app').load('1.html');
 				$('div#app').attr('param','1');
 				$('#atras').hide();
-
-				$('button#delante').click(function(){ //cuando doy click adelante cargo el proximo
+				$('button#delante').click(function(e){ //cuando doy click adelante cargo el proximo
+					e.preventDefault();
 					var proximo=parseInt(indice=$('div#app').attr('param'))+1;
+					var anterior=parseInt(indice=$('div#app').attr('param'))-1;
 					$('div#app').empty();
 					$('div#app').load(proximo+'.html');
 					$('div#app').attr('param',proximo);
-					if(proximo<30) $('#atras').show();
-
-					
+					$('#atras').show();
+					if(proximo<19){
+						 $('#adelante').show();
+						 }else{
+						 $('#adelante').hide();
+							 
+						}					
 				});
 
-				$('button#atras').click(function(){
-					var anterior=parseInt(indice=$('div#app').attr('param'))+1;
+				$('button#atras').click(function(e){
+					e.preventDefault();
+					var anterior=parseInt(indice=$('div#app').attr('param'))-1;
+					var proximo=parseInt(indice=$('div#app').attr('param'))+1;
 					$('div#app').empty();
 					$('div#app').load(anterior+'.html');
 					$('div#app').attr('param',anterior);
-					if(proximo<30) $('#atras').show();
-
-					
-					
+					$('#adelante').show();
+					if(anterior>1){
+							$('#atras').show();
+						 }else{
+							$('#atras').hide();
+						}
+						
 				});
 
 				

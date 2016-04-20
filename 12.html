@@ -1,31 +1,37 @@
 
-    <form action="" method="post">
+    <form action="11.html" method="post">
     
         <div>
-           <fieldset><legend>FINANCIAMIENTO:</legend> 
-                                                                                         
-         <br>
-          <lebel>Banco/Institución:</lebel>
-               <legend><input name="banco" type="radio"/>Si</lebel>
-                       <input name="banco" type="radio"/>No</br></legend>
-                              
-           <br>                   
-          <lebel>Requerimiento de vacas:</lebel>
-          		<legend><input name="requerimiento" type="radio"/>Si</lebel>
-                        <input name="requerimiento" type="radio"/>No</br></legend>                 
-             
-           <br>   
-          <lebel>Requerimiento de novillas:</lebel>
-          		<legend><input name="novillas" type="radio"/>Si</lebel>
-                        <input name="novillas" type="radio"/>No</br></legend>
-    
-    <br>Posee documento del INTI especifique<textarea name="eltexto" rows="2" cols="37"></textarea>
+           <fieldset><legend>SISTEMA DE RIEGO:</legend> 
+           <lebel><input type="radio" name="si">Si<br>
+           <input type="radio" name="si">No<br></lebel>
+                                                           
+         <fieldset><legend>Tipo:</legend>
+           		 <input type="checkbox" name="pozo">Pozo<br>
+            	 <input type="checkbox" name="represa">Gravedad<br>
+                 <input type="checkbox" name="acueducto">Aspersión<br>
+                 <input type="checkbox" name="laguna">Microaspersión<br>
+                 <input type="checkbox" name="quebrada">Goteo<br>
+                 <input type="checkbox" name="Manantial">Otro<br> 	   
+                                       </fieldset> 		                                
+                                                              
+                                                              
+            <br><label>Superficie (Ha):</label> 
+            <input type="number" name="yegua">
+            </br>	   
+            <label>Motobomba( ) Hp:</label> 
+            <input type="number" name="yegua">
+            </br>
+            <label>Capacidad de Flujo:</label> 
+            <input type="number" name="potrillo">
+            </br>
+            
+            <br>Condiciones:<textarea name="eltexto" rows="3" cols="38"></textarea>
            </br>
-               
-    <br>Posee Hierro registrado y notariado por el INSAI<textarea name="eltexto" rows="2" cols="37"></textarea>
-           </br>
-                              
-  
+                
+ </legend>
+         </fieldset>
+    						
 </fieldset>
                
   </form>      
