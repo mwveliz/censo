@@ -1,37 +1,73 @@
 
 <iframe src="cabecera.html" height="100px" ></iframe>
     <form action="index.html" method="post">
-        <div>
-        <br>
-        <br><fieldset><legend>TIPO DE EXPORTACI&OacuteN</legend></br>
-             <br>Vaca Becerro <input type="number" name=""></br>
-             <br>Vaca Maute <input type="number" name="vacam"></br>
-             <br>Vaca Novillo <input type="number" name="vacan"></br>
-             </br>
+        
+        <br><fieldset><legend>Tipo De Exportación</legend></br>
              
-               
-          <br>CLASE DE EXPORTACI&OacuteN</br>
-	<br>
-               Leche <input type="radio" name="tipo_e" value="leche">
-               Carne <input type="radio" name="tipo_e" value="carne">
-               Doble Prop&oacutesito <input type="radio" name="tipo_e" value="doble"></br>
-               
-               
-               
-	     <br>SISTEMA DE EXPORTACI&OacuteN</br>
-	     
-     <br>
-               Extensivo <input type="radio" name="sistema_e" value=extensivo >
-               Intensivo <input type="radio" name="sistema_e" value=intensivo>
-               Semi intensivo <input type="radio" name="sistema_e"value=intensivo></br>
-               
-               
-	    
-               
-               
-               
-              
-              
-        </div>
-        </form>
+      <li class="list__item">
+   Vaca Becerro <input type="number" name="vaca_becerro">
+ 			 </li>
+            <li class="list__item">
+   Vaca Maute <input type="number" name="vaca_maute">
+ 			 </li>
+            <li class="list__item">
+   Vaca Novillo <input type="number" name="vaca_novillo">
+ 			 </li>
+ 			 </fieldset>
+ 			 
+ 			 <fieldset> 
+ 			 <legend><br> Clase De Exportación </legend></br>
+ 			 
+ 			  <ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="clase_exportacion" checked="checked">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Leche
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="clase_exportacion">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     Carne
+    </label>
+  </li>  
+   <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="clase_exportacion">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+    Doble Propósito
+    </label>
+  </li>    
+  </fieldset>           
+       
+       <fieldset> 
+ 	   <legend> <br>Sistemas De Explotación</br></legend></br>
+ 	    <ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="b" checked="checked">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Extensivo
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="clase_exportacion">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     Intensivo
+    </label>
+  </li>  
+   <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="clase_exportacion">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     Semi intensivo
+    </label>
+  </li>    
+  </fieldset>
+  </ul>
+   </div>
+    </form>
  
