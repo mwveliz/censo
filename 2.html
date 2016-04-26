@@ -1,97 +1,127 @@
 
     
-     
+        
         <form action="" method="get">
        <fieldset>
-       <legend>2.- Datos de la finca</legend>
-        <table>
-               <tr>
-			    <th>Nombre:</th>
-			    <td><input type="text"name="nombre_finca" placeholder="Ingrese el nombre de la finca" ></td>
-			  </tr>
-			  </table>
+       <legend> DATOS DE LA FINCA</legend>
+       <ul><li class="list__item">
+    		Nombre <input type="text" name="nombre_finca" placeholder="Ingrese el nombre de la finca">
+ 			 </li>
+			    
        <fieldset>
        <legend>Ubicación</legend>
-       <table>
-			  <tr>
-			    <th>Sector:</th>
-			    <td><input type="text"name="sector" placeholder="Ingrese el sector"></td>
-			  </tr>
-			  <tr>
-			    <th>Caserio:</th>
-			    <td><input type="text"name="caserio" placeholder="Ingrese el caserío"></td>
-			  </tr>
-			     <tr>
-			    <th>Estado:</th>
-			    <td><input type="text"name="estado" placeholder="Ingrese el Estado"></td>
-			  </tr>
-			   <tr>
-			    <th>Municipio:</th>
-			    <td><input type="text"name="mun" placeholder="Ingrese el Municipio"></td>
-			  </tr>
-			   <tr>
-			    <th>Parroquia:</th>
-			    <td><input type="text"name="par" placeholder="Ingrese la Parroquia"></td>
-			  </tr>
-			</table>
+       
+       <li class="list__item">
+    		Sector <input type="text" name="sector" placeholder="Ingrese el sector">
+ 			 </li>
+ 			 
+ 			 <li class="list__item">
+    		Caserío <input type="text" name="caserio" placeholder="Ingrese el caserío">
+ 			 </li>
+ 			 
+ 			 <li class="list__item">
+    		Parroquia <input type="text" name="parroquia" placeholder="Ingrese la Parroquia">
+ 			 </li>
+        			 
+ 			 <li class="list__item">
+    		Municipio <input type="text" name="municipio" placeholder="Ingrese el Municipio">
+ 			 </li>
+ 			 
+ 			 
+ 			 <li class="list__item">
+    		Estado <input type="text" name="estado" placeholder="Ingrese el Estado">
+ 			 </li>
+ 			 
        </fieldset>
     
        <fieldset>
        <legend>Puntos GPS UTM </legend>
-       <table>
-			       <tr>
-			                    <th>NORTE:</th>
-						        <td><input type="number"name="norte"></td>
-			       </tr>
-			       <tr>
-			                    <th>ESTE:</th>
-						        <td><input type="number"name="este"></td>
-			       </tr>
-       </table>
+       
+       <li class="list__item">
+    		Norte <input type="number" name="norte">
+ 			 </li>
+ 			 
+ 			 <li class="list__item">
+    		Este <input type="number" name="norte">
+ 			 </li>
        </fieldset>
+       
         <fieldset>
-                       <legend>Condiciones de la vía</legend>
-                                <table>
-                                          <tr>
-											  <td> 
-													  <input type="radio" name="via" checked >Buena <br>
-													  <input type="radio" name="via" >Regular<br>  
-													  <input type="radio" name="via" > Mala <br> 
-											  </td>
-									       </tr>
-						         </table>
-        
-        
-        
-        
-        </fieldset>
+         <legend>Condiciones de la vía de acceso</legend>
+          <ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="condiciones" checked="checked">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Buena
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="condiciones">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     Regular
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="condiciones">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     Mala
+    </label>
+  </li>  
+  </ul>                    
+	 </fieldset>
+	 
          <fieldset>
+<<<<<<< HEAD
+         <legend>Superficie</legend>
+          <li class="list__item">
+    		En Producción <input type="number" name="produccion">
+ 			 </li>
+           <li class="list__item">
+    		Aprovechable <input type="number" name="aprovechable">
+ 			 </li>
+           <li class="list__item">
+    		No aprovechable <input type="number" name="no_aprovechable">
+ 			 </li>
+           <li class="list__item">
+    		Sembrada <input type="number" name="sembrada">
+ 			 </li>
+           <li class="list__item">
+    		Total <input type="number" name="total">
+ 			 </li>
+ 			 </ul>
+ 			 </fieldset>   
+		   </form>			        
+=======
                         <legend>Superficie</legend>
 	 						       <table>
 										  <tr>
 										    <th>En produccion:</th>
-										    <td><input type="number"name="sector"></td>
+										    <td><input type="number"name="en_produc"></td>
 										  </tr>
 										  <tr>
 										    <th>Aprovechable:</th>
-										    <td><input type="number"name="sector"></td>
+										    <td><input type="number"name="aprovechable"></td>
 										  </tr>
 										    <tr>
 										    <th>No aprovechable:</th>
-										    <td><input type="number"name="sector"></td>
+										    <td><input type="number"name="no_aprove"></td>
 										  </tr>
 										   <tr>
 										    <th>Sembrada:</th>
-										    <td><input type="number"name="sector"></td>
+										    <td><input type="number"name="sembrada"></td>
 										  </tr>
 										   <tr>
 										    <th>Total:</th>
-										    <td><input type="number"name="sector"></td>
+										    <td><input type="number"name="total"></td>
 										  </tr>
 										</table>
 			 </fieldset>
 		 </fieldset>     
 				</form>			        
+>>>>>>> e18390223f4695a8c809d20f46c531a7d9607a80
           
            
        
