@@ -62,17 +62,14 @@ h6 {
 .page::-webkit-scrollbar {
   display: none;
 }
-.page__content {
-  background-color: #affacd;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-top: -1px;
+.page__content {background: rgba(235,175,56,1);
+background: -moz-linear-gradient(45deg, rgba(235,175,56,1) 0%, rgba(235,175,56,1) 21%, rgba(94,204,78,1) 31%, rgba(94,204,78,1) 67%, rgba(132,196,72,1) 71%, rgba(235,175,56,1) 82%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(235,175,56,1)), color-stop(21%, rgba(235,175,56,1)), color-stop(31%, rgba(94,204,78,1)), color-stop(67%, rgba(94,204,78,1)), color-stop(71%, rgba(132,196,72,1)), color-stop(82%, rgba(235,175,56,1)));
+background: -webkit-linear-gradient(45deg, rgba(235,175,56,1) 0%, rgba(235,175,56,1) 21%, rgba(94,204,78,1) 31%, rgba(94,204,78,1) 67%, rgba(132,196,72,1) 71%, rgba(235,175,56,1) 82%);
+background: -o-linear-gradient(45deg, rgba(235,175,56,1) 0%, rgba(235,175,56,1) 21%, rgba(94,204,78,1) 31%, rgba(94,204,78,1) 67%, rgba(132,196,72,1) 71%, rgba(235,175,56,1) 82%);
+background: -ms-linear-gradient(45deg, rgba(235,175,56,1) 0%, rgba(235,175,56,1) 21%, rgba(94,204,78,1) 31%, rgba(94,204,78,1) 67%, rgba(132,196,72,1) 71%, rgba(235,175,56,1) 82%);
+background: linear-gradient(45deg, rgba(235,175,56,1) 0%, rgba(235,175,56,1) 21%, rgba(94,204,78,1) 31%, rgba(94,204,78,1) 67%, rgba(132,196,72,1) 71%, rgba(235,175,56,1) 82%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebaf38', endColorstr='#ebaf38', GradientType=1 );
 }
 .page__background {
   background-color: #affacd;

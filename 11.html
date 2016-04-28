@@ -1,17 +1,79 @@
-    <form action="6.1.html" method="post">
+    <form action="11.html" method="post">
     
-        <div>
-           <br><fieldset><legend>FUENTE DE AGUA</legend></br>         
-                         <input type="checkbox" name="pozo">Pozo<br>
-                         <input type="checkbox" name="represa">Represa<br>
-                         <input type="checkbox" name="acueducto">Acueducto<br>
-                         <input type="checkbox" name="laguna">Laguna<br>
-                         <input type="checkbox" name="quebrada">Rio/Quebrada<br>
-                         <input type="checkbox" name="Manantial">Manantial<br>
-                         <input type="checkbox" name="público">Público<br>
-                         <input type="checkbox" name="privado">Privado<br>                    
-             					</label> 
+        
+           <fieldset><legend>SISTEMA DE RIEGO</legend>
+           
+           <ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="riesgo">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Sí
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="riesgo">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     No
+    </label>
+  </li> 
+  </ul>
+    </fieldset>   
+    
+    
+    <fieldset><legend>TIPO</legend>
+    <ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+     Gravedad
+    </label>
+  </li> </ul>
+   <ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+      Aspersión
+    </label>
+  </li>
+</ul>
+     <ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+     Microaspersión
+    </label>
+  </li> </ul> 
   
-</fieldset>
+  	<ul class="list">
+  <li class="list__item list__item--tappable">
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+     Goteo
+    </label>
+  </li> </ul> 
+  <ul class="list">
+  	<li class="list__item">
+    		Otro <input type="text" name="otro" id="otro" placeholder="Ingrese otro riesgo">
+ 			 </li>
+ 	<li class="list__item">
+    	Superficie (Ha) <input type="number" name="superficie">
+ 			 </li>
+ 	
+ 	<li class="list__item">
+    	Motobomba (Hp) <input type="number" name="superficie">
+ 			 </li>		 
+ 	<li class="list__item">
+    	Capacidad de Flujo <input type="number" name="superficie">
+ 			 </li>
+ 		<li class="list__item"> Condiciones
+ 		<br><textarea name="condiciones" rows="3" cols="38" placeholder="Ingrese las condiciones"></textarea>
+  		</li> </br>	 	 
+  </fieldset> 
   </form>      
-       
+        

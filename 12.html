@@ -1,36 +1,123 @@
-    <form action="11.html" method="post">
-    
-        <div>
-           <fieldset><legend>SISTEMA DE RIEGO:</legend> 
-           <lebel><input type="radio" name="si">Si<br>
-           <input type="radio" name="si">No<br></lebel>
-                                                           
-         <fieldset><legend>Tipo:</legend>
-         		 <input type="checkbox" name="represa">Gravedad<br>
-                 <input type="checkbox" name="acueducto">Aspersión<br>
-                 <input type="checkbox" name="laguna">Microaspersión<br>
-                 <input type="checkbox" name="quebrada">Goteo<br>
-                 <input type="checkbox" name="Manantial">Otro<br> 	   
-                                       </fieldset> 		                                
-                                                              
-                                                              
-            <br><label>Superficie (Ha):</label> 
-            <input type="number" name="yegua">
-            </br>	   
-            <label>Motobomba( ) Hp:</label> 
-            <input type="number" name="yegua">
-            </br>
-            <label>Capacidad de Flujo:</label> 
-            <input type="number" name="potrillo">
-            </br>
+<form action="index7.2.html" method="GET">
+    <fieldset>
+       <legend> INSTALACIONES-EQUIPOS Y MAQUINARIAS</legend>
+   <ul class="list">
+  <li class="list__item">
+   MANEJO DE GANADERÍA 
+  </li>
+  </ul>
+  
+ 
+  <li class="list__item">
+   Corrales <input type="number" name="corrales" placeholder="Ingrese el número de Corrales">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+  				
+  	<li class="list__item">
+   Manga <input type="number" name="manga" placeholder="Ingrese el número de Manga">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>			 
+  
+  <li class="list__item">
+   Bretes <input type="number" name="bretes" placeholder="Ingrese el número de Bretes">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
             
-            <br>Condiciones:<textarea name="eltexto" rows="3" cols="38"></textarea>
-           </br>
-                
- </legend>
-         </fieldset>
-    						
-</fieldset>
-               
-  </form>      
+    <li class="list__item">
+   Romana <input type="number" name="romana" placeholder="Ingrese el número de Romana">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+   
+  	<li class="list__item">
+   Sala de Ordeño <input type="number" name="sala_Ordeño" placeholder="Ingrese el número de Sala de Ordeño">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+  				
+  	<li class="list__item">
+   Bebederos <input type="number" name="bebederos" placeholder="Ingrese el número de Bebederos">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>			
+  				
+  	<li class="list__item">
+   Comederos <input type="number" name="comederos" placeholder="Ingrese el número de Comederos">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>			
+  				
+  	<li class="list__item">
+   Cerco Eléctrico <input type="number" name="cerco_electrico" placeholder="Ingrese el número de Cerco Eléctrico">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+   						        
+    <li class="list__item">
+   N° de Potreros <input type="number" name="n_potreros" placeholder="Ingrese el número de Potreros">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>       
+     
+     <li class="list__item">
+   Has x Potrero <input type="number" name="has_potrero" placeholder="Ingrese el número de Has x Potrero">
+   <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+        
+      <li class="list__item">
+   Planta Eléctrica(KVA) <input type="number" name="planta_eléctrica" placeholder="Ingrese el número de Planta Eléctrica(KVA)">
+  <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+  				
+  							            
+            
+            <!-- <leg
+            end>Manejo de Ganaderia</legend>
+            <table ><tr><th width="156" id="th2">Tipo</th><th id="th2">Cantidad</th><th id="th">Observaciones</th></tr>
+              <tr>
+                <td><label> Corrales</label></td>
+                <td><input type="number" name="corral" id="cantidad"  ></td>
+                <td><input type="text" name="corral_desc" placeholder="Ingrese Información" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Manga</label></td>
+                <td><input type="number" name="manga"  id="cantidad"></td>
+                <td><input type="text" name="manga_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Bretes</label></td>
+                <td><input type="number" name="bretes"  id="cantidad"></td>
+                <td><input type="text" name="bretes_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Romana</label></td>
+                <td><input type="number" name="romana"  id="cantidad"></td>
+                <td><input type="text" name="romana_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Sala de Ordeño</label></td>
+                <td><input type="number" name="sala"  id="cantidad"></td>
+                <td><input type="text" name="sala_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td> <label>Bebederos</label></td>
+                <td><input type="number" name="sala"  id="cantidad"></td>
+                <td><input type="text" name="sala_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Comederos</label></td>
+                <td><input type="number" name="bebederos" id="cantidad"></td>
+                <td><input type="text" name="bebederos_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Cerco Eléctrico</label></td>
+                <td><input type="number" name="comederos"  id="cantidad"></td>
+                <td><input type="text" name="comederos_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>N° de Potreros</label></td>
+                <td><input type="number" name="cerco"  id="cantidad"></td>
+                <td><input type="text" name="cerco_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Has x Potrero</label></td>
+                <td><input type="number" name="potreros"  id="cantidad"></td>
+                <td><input type="text" name="potreros_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+              <tr>
+                <td><label>Planta Eléctrica (KVA)</label></td>
+                <td><input type="number" name="has"  id="cantidad"></td>
+                <td><input type="text" name="has_desc" placeholder="Ingrese Información" id="complemento"></td>
+              </tr>
+            </table>
+            </fieldset>
+          
+            </fieldset>
+        
+        </div>-->
+        </fieldset>
+        </form>
         

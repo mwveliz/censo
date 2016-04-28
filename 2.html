@@ -1,127 +1,92 @@
-
-    
-        
-        <form action="" method="get">
+	<form action="" method="get">
        <fieldset>
        <legend> DATOS DE LA FINCA</legend>
-       <ul><li class="list__item">
-    		Nombre <input type="text" name="nombre_finca" placeholder="Ingrese el nombre de la finca">
- 			 </li>
-			    
-       <fieldset>
-       <legend>Ubicación</legend>
-       
        <li class="list__item">
-    		Sector <input type="text" name="sector" placeholder="Ingrese el sector">
+    	Nombre <input type="text" name="nombre_finca" placeholder="Ingrese el nombre de la finca">
+ 			 </li>
+ 			 </fieldset>
+		
+	<fieldset>
+	<legend> UBICACIÓN</legend>	
+	<li class="list__item"> Sector <input type="text" name="sector" placeholder="Ingrese el sector">
  			 </li>
  			 
- 			 <li class="list__item">
+ 		 <li class="list__item">
     		Caserío <input type="text" name="caserio" placeholder="Ingrese el caserío">
  			 </li>
  			 
- 			 <li class="list__item">
+ 		<li class="list__item">
     		Parroquia <input type="text" name="parroquia" placeholder="Ingrese la Parroquia">
  			 </li>
         			 
- 			 <li class="list__item">
+ 		<li class="list__item">
     		Municipio <input type="text" name="municipio" placeholder="Ingrese el Municipio">
  			 </li>
  			 
  			 
- 			 <li class="list__item">
+ 		<li class="list__item">
     		Estado <input type="text" name="estado" placeholder="Ingrese el Estado">
+ 			 </li> 
+ 			 </fieldset>
+ 			 
+ 			 
+      <fieldset>
+	<legend>PUNTOS GPS UTM</legend>	
+		<li class="list__item"> Norte <input type="number" name="norte">
  			 </li>
  			 
-       </fieldset>
-    
-       <fieldset>
-       <legend>Puntos GPS UTM </legend>
-       
-       <li class="list__item">
-    		Norte <input type="number" name="norte">
+ 		 <li class="list__item"> Este <input type="number" name="norte">
  			 </li>
- 			 
- 			 <li class="list__item">
-    		Este <input type="number" name="norte">
- 			 </li>
-       </fieldset>
+ 			 </fieldset>
        
         <fieldset>
-         <legend>Condiciones de la vía de acceso</legend>
-          <ul class="list">
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="condiciones" checked="checked">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      Buena
-    </label>
-  </li>
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="condiciones">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-     Regular
-    </label>
-  </li>
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="condiciones">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-     Mala
-    </label>
-  </li>  
-  </ul>                    
-	 </fieldset>
-	 
-         <fieldset>
-<<<<<<< HEAD
-         <legend>Superficie</legend>
+	<legend> CONDICIONES DE LA VÍA DE ACCESO</legend>
+        <ul class="list">
+ 		 <li class="list__item list__item--tappable">
+    		<label class="radio-button radio-button--list-item">
+      		<input type="radio" name="condiciones">
+     		 <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     		 Buena
+    		</label>
+  				</li>
+  		<li class="list__item list__item--tappable">
+ 		   <label class="radio-button radio-button--list-item">
+      		<input type="radio" name="condiciones">
+      		<div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+    	    Regular
+    		</label>
+  		</li>
+  		<li class="list__item list__item--tappable">
+    		<label class="radio-button radio-button--list-item">
+      		<input type="radio" name="condiciones">
+      		<div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+     		Mala
+    		</label>
+  		</li>  
+ 		 </ul>  
+ 		 </fieldset>                  
+	
+        <fieldset>
+	<legend> SUPERFICIE (Ha) </legend>
           <li class="list__item">
     		En Producción <input type="number" name="produccion">
  			 </li>
            <li class="list__item">
-    		Aprovechable <input type="number" name="aprovechable">
+    		Aprovechables <input type="number" name="aprovechable">
  			 </li>
            <li class="list__item">
-    		No aprovechable <input type="number" name="no_aprovechable">
+    		No aprovechables <input type="number" name="no_aprovechable">
  			 </li>
            <li class="list__item">
-    		Sembrada <input type="number" name="sembrada">
+    		Sembradas <input type="number" name="sembrada">
+ 			 </li>
+ 			  <li class="list__item">
+    		Riego <input type="number" name="sembrada">
  			 </li>
            <li class="list__item">
     		Total <input type="number" name="total">
  			 </li>
  			 </ul>
  			 </fieldset>   
-		   </form>			        
-=======
-                        <legend>Superficie</legend>
-	 						       <table>
-										  <tr>
-										    <th>En produccion:</th>
-										    <td><input type="number"name="en_produc"></td>
-										  </tr>
-										  <tr>
-										    <th>Aprovechable:</th>
-										    <td><input type="number"name="aprovechable"></td>
-										  </tr>
-										    <tr>
-										    <th>No aprovechable:</th>
-										    <td><input type="number"name="no_aprove"></td>
-										  </tr>
-										   <tr>
-										    <th>Sembrada:</th>
-										    <td><input type="number"name="sembrada"></td>
-										  </tr>
-										   <tr>
-										    <th>Total:</th>
-										    <td><input type="number"name="total"></td>
-										  </tr>
-										</table>
-			 </fieldset>
-		 </fieldset>     
-				</form>			        
->>>>>>> e18390223f4695a8c809d20f46c531a7d9607a80
-          
-           
+		   </form>	
        
