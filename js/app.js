@@ -22,7 +22,7 @@
 					$('div#app').load(proximo+'.html');
 					$('div#app').attr('param',proximo);
 					$('#atras').show();
-					if(proximo<19){
+					if(proximo<20){
 						 $('#adelante').show();
 						 }else{
 						 $('#adelante').hide();
