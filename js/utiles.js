@@ -138,20 +138,20 @@ function file_get_contents (url, flags, context, offset, maxLen) {
             switch (req.readyState) {
             case 0:
               //     UNINITIALIZED     open() has not been called yet.
-              notification.call(objContext, 0, 0, '', 0, 0, 0);
+              //notification.call(objContext, 0, 0, '', 0, 0, 0);
               break;
             case 1:
               //     LOADING     send() has not been called yet.
-              notification.call(objContext, 0, 0, '', 0, 0, 0);
+              //notification.call(objContext, 0, 0, '', 0, 0, 0);
               break;
             case 2:
               //     LOADED     send() has been called, and headers and status are available.
-              notification.call(objContext, 0, 0, '', 0, 0, 0);
+              //notification.call(objContext, 0, 0, '', 0, 0, 0);
               break;
             case 3:
               //     INTERACTIVE     Downloading; responseText holds partial data.
               bytes_transferred = req.responseText.length * 2; // One character is two bytes
-              notification.call(objContext, 7, 0, '', 0, bytes_transferred, 0);
+              //notification.call(objContext, 7, 0, '', 0, bytes_transferred, 0);
               break;
             case 4:
               //     COMPLETED     The operation is complete.
@@ -159,9 +159,9 @@ function file_get_contents (url, flags, context, offset, maxLen) {
                 bytes_transferred = req.responseText.length * 2; // One character is two bytes
                 notification.call(objContext, 8, 0, '', req.status, bytes_transferred, 0);
               } else if (req.status === 403) { // Fix: These two are finished except for message
-                notification.call(objContext, 10, 2, '', req.status, 0, 0);
+                //notification.call(objContext, 10, 2, '', req.status, 0, 0);
               } else { // Errors
-                notification.call(objContext, 9, 2, '', req.status, 0, 0);
+             //   notification.call(objContext, 9, 2, '', req.status, 0, 0);
               }
               break;
             default:
