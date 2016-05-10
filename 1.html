@@ -1,13 +1,12 @@
-<ul class="list">
+<fieldset style="border:6px double #3da118;">
+<legend> DATOS DE LA ENCUESTA </legend>
   <li class="list__item">
     Fecha <input type="date" name="fecha" id="fecha_brucella">
   </li>
-  <li class="list__item">
-    Código <input type="number" name="codigo" placeholder="Código">
-  </li>
-</ul>
+  </fieldset>
+
               
-         <fieldset>
+         <fieldset style="border:4px groove #3da118;">
        <legend> DATOS GENERALES DEL PRODUCTOR </legend>
          <li class="list__item">
     	Nombre y Apellido <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido">
@@ -16,36 +15,23 @@
     Documento de Identidad <input type="number" name="cedula" placeholder="Ingrese su número de cédula">
   </li> 
  		<li class="list__item">
-    Télefono Fijo <input type="number" name="telefono" placeholder="Ingrese su número de télefono">
+    Teléfono Fijo <input type="number" name="telefono" placeholder="Ingrese su número de télefono">
+  </li> 
+  
+  <li class="list__item">
+    Teléfono Celular <input type="number" name="celular" placeholder="Ingrese su número de télefono">
   </li> 
  
-                   
-			     
-								<!--	     <th>Celular:    </th>
-      <table>
-           <tr>
-              <th> <label for="date">Fecha:</label> </th>
-              <td><input type="date" name="date" placeholder=”DD/MM/YYYY”/></td>
-                            </tr>
-					              <tr>
-					                  <th>Código</th>
-					                  <td><input type="number"name="codigo"></td>
-					                 </tr>
-		                         
-                          </table>-->
-             
-           
-      
-				<li class="list__item">
-    		Correo Electrónico <input type="text" name="correo" id="nombre" placeholder="Ingrese su correo">
- 			 </li>
- 			 <br>
+	<li class="list__item">
+    	Correo Electrónico <input type="text" name="correo" id="nombre" placeholder="Ingrese su correo">
+ 		 </li>
+ 		 <br>
  			 </fieldset>
  			 
  			 
- 			 <fieldset>
+ 		<fieldset style="border:4px double #3da118;">
        <legend> NIVEL DE EDUCACIÓN </legend>
- 			 <ul class="list">
+ 			 
   <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
       <input type="radio" name="educacion">
@@ -81,12 +67,11 @@
     Ninguna
     </label>
   </li>
-</ul>
 </fieldset>
 
-         <fieldset>
+       <fieldset style="border:4px groove #3da118;">
        <legend> SABE LEER </legend>  
-       <ul class="list">
+       
   <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
       <input type="radio" name="leer">
@@ -103,12 +88,12 @@
   </li>  
   </fieldset>
   
-  <fieldset>
+  <fieldset style="border:4px groove #3da118;">
        <legend>EXPERIENCIA</legend> <input type="number" name="experiencia" placeholder="Años como productor">
  			 </li>
  			 </fieldset>
  			 
- 			 <fieldset>
+ 		<fieldset style="border:4px groove #3da118;">
        <legend> LUGAR DE HABITACIÓN </legend>
        <textarea name="habitacion" rows="3" cols="38" placeholder="Ingrese su ubicación"></textarea>
   		</li> 

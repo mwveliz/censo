@@ -1,27 +1,110 @@
-  <form action="index7.4.html" method="GET">
+ <form action="" method="GET">
  
- <fieldset>
-       <legend> INSTALACIONES-EQUIPOS Y MAQUINARIAS</legend>
-   <ul class="list">
+            <fieldset style="border:4px groove #3da118;">
+            <legend>ALIMENTACIÓN</legend>
+            
+             <ul class="list">
   <li class="list__item">
-   REPRODUCCIÓN
+   PASTO DE CORTE
   </li>
   </ul>
-  
   <li class="list__item">
-   Tanque de Nitrógeno <input type="number" name="tanque_nitrogeno" placeholder="Ingrese cantidad">
-  <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
-  
+  Tipo <input type="text" name="tipo_pasto_1" placeholder="Ingrese Información"> <input type="number" name="has_pasto_1" placeholder="Ingrese Hectareas"></li>
   <li class="list__item">
-   Caja de Inseminación <input type="number" name="caja_inseminación" placeholder="Ingrese cantidad">
-  <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+  Tipo <input type="text" name="tipo_pasto_2" placeholder="Ingrese Información"> <input type="number" name="has_pasto_2" placeholder="Ingrese Hectareas"> </li>
   
+     <ul class="list">
   <li class="list__item">
-  Pistoleta de Inseminación <input type="number" name="pistoleta_inseminación" placeholder="Ingrese cantidad">
-  <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+  TIPO DE PASTO DE PASTOREO Y ÁREAS SEMBRADAS
+  </li>
+  </ul>
+ 
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+     Bracharia <input type="number" name="bracharia" placeholder="Ingrese Hectareas">
+    </label>
   
+   
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+      Estrella  <input type="number" name="estrella" placeholder="Ingrese Hectareas">
+    </label>
+  
+     
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+     Guinea <input type="number" name="guinea" placeholder="Ingrese Hectareas">
+    </label>
+   
+  	
+  	
+    <label class="checkbox checkbox--list-item">
+      <input type="checkbox">
+      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+     Alemán <input type="number" name="aleman" placeholder="Ingrese Hectareas">
+    </label>
+  
+   
+  
+  	<li class="list__item">
+    		Otro <input type="text" name="otro_pasto" placeholder="Ingrese otro tipo"> <input type="number" name="otro_pasto" placeholder="Ingrese Hectareas">
+ 			 </li>
+ 			 
+ <li class="list__item">
+ Caña de azúcar
+<input type="number" name="has_cana" placeholder="Ingrese Hectareas"></li>
+ 
+ <li class="list__item">
+ Nº de potreros <input type="number" name="numero_potrero" placeholder="Ingrese Hectareas">
+ <br> Área Promedio <input type="number" name="area_promedio" placeholder="Ingrese cantidad"></br></li> 
+ 
   <li class="list__item">
-   Termo para Descongelar Pajuelas <input type="number" name="termo_descongelar" placeholder="Ingrese cantidad">
-  <textarea name="observaciones" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
-   </fieldset>
-    </form> 
+ Silo <input type="number" name="silo" placeholder="Ingrese Hectareas">
+ <br> Cultivo <input type="text" name="cultivo" placeholder="Ingrese información"></li> 
+ 
+  <li class="list__item">
+Toneladas de silo Cosechadas <input type="number" name="toneladas_cosecha" placeholder="Ingrese cantidad">
+Observación <br><textarea name="observacion" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></li>
+
+
+  <li class="list__item">
+   Suministra Minerales
+  <label class="radio-button radio-button--list-item">
+      <input type="radio" name="suministra_minerales">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Sí <br> Kgs/dias <input type="number" name="kgs_minerales" placeholder="Ingrese Kgs por día">
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="suministra_minerales">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      No
+    </label>
+  </li>
+
+<li class="list__item">
+   Suministra Concentrado
+  <label class="radio-button radio-button--list-item">
+      <input type="radio" name="suministra_concentrado">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Sí <br> Kgs/dias <input type="number" name="kgs_concentrado" placeholder="Ingrese Kgs por día">
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="suministra_concentrado">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      No
+    </label>
+  </li>
+
+
+
+
+
+
+</fieldset>

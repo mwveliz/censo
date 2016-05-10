@@ -1,90 +1,22 @@
-<form action="" method="GET">
- 
-            <fieldset>
-            <legend>ALIMENTACIÓN</legend>
-            
-             <ul class="list">
-  <li class="list__item">
-   PASTO DE CORTE
-  </li>
-  </ul>
-  <li class="list__item">
-  Tipo <input type="text" name="tipo_pasto_1" placeholder="Ingrese Información"> <input type="number" name="has_pasto_1" placeholder="Ingrese Hectareas"></li>
-  <li class="list__item">
-  Tipo <input type="text" name="tipo_pasto_2" placeholder="Ingrese Información"> <input type="number" name="has_pasto_2" placeholder="Ingrese Hectareas"> </li>
-  
-     <ul class="list">
-  <li class="list__item">
-  TIPO DE PASTO DE PASTOREO Y ÁREAS SEMBRADAS (HAS)
-  </li>
-  </ul>
- 
-    <label class="checkbox checkbox--list-item">
-      <input type="checkbox">
-      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
-     Bracharia <input type="number" name="bracharia" placeholder="Ingrese Hectareas">
-    </label>
-  
-   
-    <label class="checkbox checkbox--list-item">
-      <input type="checkbox">
-      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
-      Estrella  <input type="number" name="estrella" placeholder="Ingrese Hectareas">
-    </label>
-  
+<form action="index.html" method="post">
+   <fieldset style="border:4px groove #3da118;">
+   <legend>REGISTROS</legend>
      
-    <label class="checkbox checkbox--list-item">
-      <input type="checkbox">
-      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
-     Guinea <input type="number" name="guinea" placeholder="Ingrese Hectareas">
-    </label>
-   
-  	
-  	
-    <label class="checkbox checkbox--list-item">
-      <input type="checkbox">
-      <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
-     Alemán <input type="number" name="aleman" placeholder="Ingrese Hectareas">
-    </label>
-  
-   
-  <ul class="list">
-  	<li class="list__item">
-    		Otro <input type="text" name="otro_pasto" placeholder="Ingrese otro tipo"> <input type="number" name="otro_pasto" placeholder="Ingrese Hectareas">
- 			 </li>
- 			 
- <li class="list__item">
- Caña de azúcar
-<input type="number" name="has_cana" placeholder="Ingrese Hectareas"></li>
- 
- <li class="list__item">
- Nº de potreros <input type="number" name="numero_potrero" placeholder="Ingrese Hectareas">
- <br> Área Promedio <input type="number" name="area_promedio" placeholder="Ingrese cantidad"></br></li> 
- 
+         <ul class="list">
   <li class="list__item">
- Silo <input type="number" name="silo" placeholder="Ingrese Hectareas">
- <br> Cultivo <input type="text" name="cultivo" placeholder="Ingrese información"></br></li> 
- 
-  <li class="list__item">
-Toneladas de silo Cosechadas <input type="number" name="toneladas_cosecha" placeholder="Ingrese cantidad">
-Observación <br><textarea name="observacion" rows="3" cols="38" placeholder="Ingrese las observaciones"></textarea></br></li>
- 
-<!-- 
-<ul class="list">
-  			<li class="list__item">
-  			 Suministra Minerales
- 	 		</li>
-  			</ul> 
-          <li class="list__item list__item--tappable">
+   Registro de parto
+  </li>
+  </ul>   
+  <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="suministra_minerales">
+      <input type="radio" name="registro_parto">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
       Sí
     </label>
   </li>
   <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="suministra_minerales">
+      <input type="radio" name="registro_parto">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
       No
     </label>
@@ -92,24 +24,112 @@ Observación <br><textarea name="observacion" rows="3" cols="38" placeholder="In
 </ul>
 
 
-
-
-  Suministra Concentrado 
-   <li class="list__item list__item--tappable">
+   <ul class="list">
+  <li class="list__item">
+     Registro de Secado 
+    </li>
+  </ul>         
+  <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="suministra_concentrado">
+      <input type="radio" name="registro_secado">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
       Sí
     </label>
-     Kgs/días <input type="number" name="kgs_dias" placeholder="Ingrese Kgs por día">
   </li>
   <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="sumistra_concentrado">
+      <input type="radio" name="registro_secado">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
       No
     </label>
   </li>
-</ul> -->
+</ul> </br>
 
-   </fieldset>
+
+   <ul class="list">
+  <li class="list__item">
+      Peso al Nacer 
+      </li>
+  </ul>          
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="peso_nacer">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Sí
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="peso_nacer">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      No
+    </label>
+  </li>
+</ul> </br>
+
+
+    <ul class="list">
+  <li class="list__item">
+      Peso al Destete
+    </li>
+  </ul>         
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="peso_destete">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Sí
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="peso_destete">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      No
+    </label>
+  </li>
+</ul>
+
+
+    <ul class="list">
+  <li class="list__item">
+      Peso al Año  
+      </li>
+  </ul>         
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="peso_ano">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Sí
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="peso_ano">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      No
+    </label>
+  </li>
+</ul>
+
+
+    <ul class="list">
+  <li class="list__item">
+      Pesaje de la Leche 
+       </li>
+  </ul>        
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="pesaje_leche">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      Sí
+    </label>
+  </li>
+  <li class="list__item list__item--tappable">
+    <label class="radio-button radio-button--list-item">
+      <input type="radio" name="pesaje_leche">
+      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
+      No
+    </label>
+  </li>
+</ul> 
+</fieldset>            

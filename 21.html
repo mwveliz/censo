@@ -1,168 +1,160 @@
 <form action="index.html" method="post">
-   <fieldset><legend>REGISTROS</legend>
-     
-         <ul class="list">
+ <fieldset style="border:4px groove #3da118;">
+ <legend>SANIDAD ANIMAL</legend>
+       
+       <ul class="list">
   <li class="list__item">
-   Registro de parto
+   RECIBE ASISTENCIA TÉCNICA
   </li>
-  </ul>   
+  </ul>
+  
   <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="registro_parto">
+      <input type="radio" name="asistencia_tecnica">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
       Sí
     </label>
   </li>
   <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="registro_parto">
+      <input type="radio" name="asistencia_tecnica">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      No
+     No
     </label>
   </li>
 </ul>
 
-
-   <ul class="list">
+     <ul class="list">
   <li class="list__item">
-     Registro de Secado 
-    </li>
-  </ul>         
-  <li class="list__item list__item--tappable">
+  VACUNAS APLÍCADAS ANUALMENTE
+  </li>
+  </ul>
+              <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id="aftosa">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Aftosa <input type="date" name="fecha" id="fecha_aftosa">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id="rabia">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Rabia <input type="date" name="fecha" id="fecha_rabia">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id="leptospira">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Leptospira <input type="date" name="fecha" id="fecha_leptospira">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=virales">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Virales <input type="date" name="fecha" id="fecha_virales">
+	          </li>
+	          
+	           <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=clostridiales">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Clostridiales <input type="date" name="fecha" id="fecha_lostridiales">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=brucella">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Brucella <input type="date" name="fecha" id="fecha_brucella">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=triple">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Triple <input type="date" name="fecha" id="fecha_triple">
+	          </li>
+	          
+	           <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=otras">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Otras <input type="text" name="text" id="text_otras" placeholder="Ingrese nombre"> <input type="date" name="fecha" id="fecha_otras">
+	          </li>
+              </ul>
+      
+        <ul class="list">
+  		<li class="list__item">
+  	   DESPARASITACIONES
+ 	 </li>
+  	</ul>  
+             <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="desparasitaciones" id="endoparasitos">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Endoparásitos 
+    		  <input type="text" name="tipo" id="tipo" placeholder="Tipo">
+    		  <input type="number" name="frecuencia" id="tipo" placeholder="Frecuencia" style="width:70px;"> 
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="desparasitaciones" id="ectoparásitos">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Ectoparásitos 
+	          <input type="text" name="tipo" id="tipo" placeholder="Tipo">
+    		  <input type="number" name="frecuencia" id="tipo" placeholder="Frecuencia" style="width:70px;"> 
+	          </li>
+          
+             <ul class="list">
+  			<li class="list__item">
+  			 PRUEBAS
+ 	 		</li>
+  			</ul> 
+              <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="brucella" id="brucella">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Brucella <input type="date" name="fecha" id="fecha_brucella">
+	          </li>
+	          
+              <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="leptospira" id="leptospira">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Leptospira <input type="date" name="fecha" id="fecha_leptospira">
+	          </li>
+	          
+	          <li class="list__item list__item--tappable">
+              <label class="checkbox checkbox--list-item">
+    		  <input type="checkbox" name="tipo_vacuna" id=otras">
+      		  <div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+    		  Otras <input type="text" name="text" id="text_otras" placeholder="Ingrese nombre"> <input type="date" name="fecha" id="fecha_otras">
+	          </li>
+              </ul>
+          
+            <ul class="list">
+  			<li class="list__item">
+  			SECADO DE LA VACA
+ 	 		</li>
+  			</ul> 
+          <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="registro_secado">
+      <input type="radio" name="secado">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      Sí
+      Natural
     </label>
   </li>
   <li class="list__item list__item--tappable">
     <label class="radio-button radio-button--list-item">
-      <input type="radio" name="registro_secado">
+      <input type="radio" name="secado">
       <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      No
-    </label>
-  </li>
-</ul> </br>
-
-
-   <ul class="list">
-  <li class="list__item">
-      Peso al Nacer 
-      </li>
-  </ul>          
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="peso_nacer">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      Sí
-    </label>
-  </li>
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="peso_nacer">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      No
-    </label>
-  </li>
-</ul> </br>
-
-
-    <ul class="list">
-  <li class="list__item">
-      Peso al Destete
-    </li>
-  </ul>         
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="peso_destete">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      Sí
-    </label>
-  </li>
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="peso_destete">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      No
+      Inducido
     </label>
   </li>
 </ul>
 
-
-    <ul class="list">
-  <li class="list__item">
-      Peso al Año  
-      </li>
-  </ul>         
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="peso_ano">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      Sí
-    </label>
-  </li>
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="peso_ano">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      No
-    </label>
-  </li>
-</ul>
-
-
-    <ul class="list">
-  <li class="list__item">
-      Pesaje de la Leche 
-       </li>
-  </ul>        
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="pesaje_leche">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      Sí
-    </label>
-  </li>
-  <li class="list__item list__item--tappable">
-    <label class="radio-button radio-button--list-item">
-      <input type="radio" name="pesaje_leche">
-      <div class="radio-button__checkmark radio-button--list-item__checkmark"></div>
-      No
-    </label>
-  </li>
-</ul> 
-</fieldset>            
-              
-              
-              
-              
-             <!--  <input name="registro_p" type="radio"/>Si</lebel>
-                                <input name="registro_p" type="radio"/>No</br>
-                              
-              <br>
-              Registro de Secado <input name="registro_s" type="radio"/>Si</lebel>
-                                <input name="registro_s" type="radio"/>No</br>
-              <br>                   
-              Peso al Nacer    <input name="peso_n" type="radio"/>Si</lebel>
-                               <input name="peso_n" type="radio"/>No</br>
-              <br> 
-              Peso al Destete   <input name="peso_d" type="radio"/>Si</lebel>
-                                <input name="peso_d" type="radio"/>No</br>
-              <br> 
-              Peso al A&ntildeo <input name="peso_a" type="radio"/>Si</lebel>
-                                <input name="peso_a" type="radio"/>No</br>
-              <br> 
-              Pasaje de la Leche <input name="pasaje_l" type="radio"/>Si</lebel>
-                                <input name="pasaje_l" type="radio"/>No</br>
-                                 
-                                 <br>Mensual <input type="number" name="men"></br>
-                                 
-                                 <br>Semanal <input type="number" name="men"></br>
-                                 
-                                 <br>Diario  <input type="number" name="men"></br>
-                                 
-                                 <br>Observaciones:<textarea name="eltexto" rows="5" cols="30"></textarea>
-                      
-                                </br>  
-     </form> -->       
-
+Producto Utilizado <input type="text" name="text" id="text_otras" placeholder="Ingrese nombre">
